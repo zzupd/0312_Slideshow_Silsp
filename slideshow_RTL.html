@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>슬라이드쇼(RTL)</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+   <div id="wrap">
+       <h1 onclick="moveLeft()" style="cursor: pointer;">슬라이드쇼_RTL</h1>
+
+       <script>
+         function moveLeft() {
+             document.getElementById("slideShuttleFrame").style.marginLeft = "-1000px";
+         }
+       </script>
+
+       <div id="slideArea">
+           <div id="slideShuttleFrame">
+               <a href="#"><img src="images/img_nature_wide_01.jpg" alt="슬라이드이미지1" width="1000"></a>
+               <a href="#"><img src="images/img_snow_wide_02.jpg" alt="슬라이드이미지2" width="1000"></a>
+               <a href="#"><img src="images/img_mountains_wide_03.jpg" alt="슬라이드이미지3" width="1000"></a>
+           </div>
+           <!-- div#slideShuttleFrame
+                이미지 전체가 이동하는 틀,
+                부모요소보다 넓은 영역,
+                영역이 더 큼-->
+       </div> <!-- div#slideArea 부모요소 -->
+   </div>  <!-- div#wrap -->
+
+</body>
+</html>

@@ -21,7 +21,7 @@ ul            { list-style: none; }
 /* div#wrap */
 div#wrap {
     width: 1000px;
-    border: 1px solid #0f0;
+    /*border: 1px solid #0f0;*/
     margin: 0 auto;
 }
 /* div#wrap */
@@ -30,18 +30,17 @@ div#wrap {
 div#slideArea {
     width: 1000px;
     height: 300px;
-    border: 10px solid #08f;
+    /*border: 10px solid #08f;*/
 
     overflow: hidden;
-    position: relative;
 }
 
 div#slideShuttleFrame {
     width: 3050px;
-    border: 10px solid #f00;
-    position: absolute;
+    /*border: 10px solid #f00;*/
 
-    transition: all 1s;
+    margin-left: 0px;
+
 
 }
 div#slideShuttleFrame::after {

@@ -26,6 +26,12 @@ div#wrap {
 }
 /* div#wrap */
 
+
+button {
+    font-size: 30px;
+}
+
+
 /* 슬라이드쇼 영역 시작 */
 div#slideArea {
     width: 1000px;
